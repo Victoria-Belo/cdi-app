@@ -2,21 +2,16 @@ openapi: 3.0.0
 paths:
   /v1/cdi:
     get:
-      summary: Get CDI
       operationId: CDIController_cdiApp
       parameters: []
       responses:
         '200':
           description: 'OK'
-          content:
-            application/json:
-              schema:
-                type: object
         '400':
           description: 'BAD REQUEST'
 info:
-  title: Certificado de Depósito Interbancário Mensal
-  description: Operação de taxa de juros entre bancos
+  title: CDI Mensal
+  description: Operação de taxa de juros entre bancos dos últimos 12 meses
   version: '1.0'
   contact: {}
 tags:
