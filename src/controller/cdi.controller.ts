@@ -8,8 +8,7 @@ export class CDIController {
     
     @ApiTags('cdi')
     @ApiResponse({ status: 200, description: 'The request has been successfully.'})
-    @ApiResponse({ status: 400, description: 'Bad Request.'})
-    
+    @ApiResponse({ status: 400, description: 'Bad Request.'})    
     @Get('/cdi')
     async cdiApp(){
       return this.service.getCDI();
