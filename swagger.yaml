@@ -18,7 +18,6 @@ tags:
   - name: cdi
     description: ''
 servers:  
-- url: /
 - url: https://victoria-belo.github.io/
 components:
   schemas: {}
