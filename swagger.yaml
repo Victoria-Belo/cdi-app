@@ -7,8 +7,36 @@ paths:
       responses:
         '200':
           description: The request has been successfully.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+              examples:
+                GET v1/cdi:
+                  value: |-
+                    [
+                       
+                        {
+                            "data": "01/02/2023",
+                            "valor": "0.92"
+                        },
+                        {
+                            "data": "01/01/2023",
+                            "valor": "1.12"
+                        },
+                        {
+                            "data": "01/12/2022",
+                            "valor": "1.12"
+                        }
+                      
+                    ]
         '400':
-          description: Bad Request.
+          description: Bad Request
+        '404':
+          description: Not Found
+      
       tags:
         - cdi
 info:
