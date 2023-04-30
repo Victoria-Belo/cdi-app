@@ -6,18 +6,19 @@ paths:
       parameters: []
       responses:
         '200':
-          description: 'OK'
+          description: The request has been successfully.
         '400':
-          description: 'BAD REQUEST'
+          description: Bad Request.
+      tags:
+        - cdi
 info:
-  title: CDI Mensal
-  description: Operação de taxa de juros entre bancos dos últimos 12 meses
+  title: Certificado de Depósito Interbancário Mensal
+  description: Taxa de juros entre bancos
   version: '1.0'
   contact: {}
 tags:
   - name: cdi
     description: ''
-servers:  
-- url: https://victoria-belo.github.io/
+servers: []
 components:
   schemas: {}
