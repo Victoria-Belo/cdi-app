@@ -1,8 +1,9 @@
 openapi: 3.0.0
-servers:
-  - url: https://victoria-belo.github.io/cdi-app  
+
 paths:
   /v1/cdi:
+  servers:
+  - url: https://victoria-belo.github.io/cdi-app
     get:
       operationId: CDIController_cdiApp
       parameters: []
