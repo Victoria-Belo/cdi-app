@@ -1,8 +1,7 @@
 openapi: 3.0.0
 
 paths:
-  /v1/cdi:
-  servers:  
+  /v1/cdi:  
     get:
       operationId: CDIController_cdiApp
       parameters: []
