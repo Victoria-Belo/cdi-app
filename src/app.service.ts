@@ -9,8 +9,9 @@ export class AppService {
     .then((response) => {         
      return response.json()
     })
-    .then((json)=> json.slice(-13).reverse()      
-    )      
+    .then((json)=> { 
+      return json.slice(-13).reverse()  
+    })      
     .catch((e) => { throw new HttpException({'error': e.error}, HttpStatus.BAD_REQUEST) } );
   }
 }
