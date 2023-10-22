@@ -6,13 +6,13 @@
   <img src="https://img.shields.io/badge/CONCLUÍDO-green?logo=github&label=STATUS" />
 </p>
 
-## BRANCHS
+## Branchs
 <p><img src="https://img.shields.io/badge/MAIN-8A2BE2?logo=git&label=BRANCH&labelColor=white" /> https://victoria-belo.github.io/cdi-app/ </p>
 <br>
 <p><img src="https://img.shields.io/badge/DEV-8A2BE2?logo=git&label=BRANCH&labelColor=white" /> Configurado para localhost. </p>
 <br>
 
-### DEMONSTRAÇÃO
+## Demonstração
 
 <p><img src="swagger-ui-dist/demo.png"></p>
 
@@ -25,19 +25,19 @@
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
-### NESTJS
+## NestJS
 
-## Descrição
+### Descrição
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript.
 
-## Instalação
+### Instalação
 
 ```bash
 $ npm install
 ```
 
-## Rodando o app
+### Rodando o app
 
 ```bash
 # development
