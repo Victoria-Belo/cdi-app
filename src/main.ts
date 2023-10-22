@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
-import { ExpressAdapter } from '@nestjs/platform-express'; // Importe o ExpressAdapter
+import { ExpressAdapter } from '@nestjs/platform-express'; 
 
 declare const module: any;
 
