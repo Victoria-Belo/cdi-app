@@ -25,7 +25,8 @@ async function bootstrap() {
     .addTag('cdi')
     .build();
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('cdi-api', app, document);
+  SwaggerModule.setup('cdi-app/v1/cdi', app, document);
+
 
   await app.listen(3000);
 
