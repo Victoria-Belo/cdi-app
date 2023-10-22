@@ -15,7 +15,7 @@
 
 ## Demonstração
 
-<p><img src="swagger-ui-dist/demo.png"></p>
+<p><img src="ui/demo.png"></p>
 
 <hr>
 
