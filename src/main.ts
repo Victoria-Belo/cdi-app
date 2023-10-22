@@ -13,7 +13,7 @@ async function bootstrap() {
 
   // Configure as opções de CORS
   app.enableCors({
-    origin: 'https://victoria-belo.github.io', 
+    origin: '*',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', 
     credentials: true,
   });
@@ -21,11 +21,10 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('Certificado de Depósito Interbancário Mensal')
     .setDescription('Taxa de juros entre bancos')
-    .setVersion('1.0')
-    .addTag('cdi')
+    .setVersion('1.0')   
     .build();
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api', app, document);
+  SwaggerModule.setup('/api', app, document);
 
 
   await app.listen(3000);
