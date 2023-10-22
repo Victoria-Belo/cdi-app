@@ -1,22 +1,20 @@
 {
   "swagger": "2.0",
   "info": {
-    "version": "1.0.1",
-    "title": "REST API",
+    "version": "1.1",
+    "title": "Certificado de Depósito Interbancário Mensal",
     "description": "Taxa de juros entre bancos"
   },
   "host": "victoria-belo.github.io",
-  "basePath": "/cdi-app/api",
-  "schemes": [   
-    "https"
-  ],
+  "basePath": "/cdi-app",
+  "schemes": ["https"],
   "tags": [
     {
       "name": "CDI"
     }
   ],
   "paths": {
-    "/v1/cdi": {
+    "/api/v1/cdi": {
       "get": {
         "tags": ["CDI"],
         "responses": {
