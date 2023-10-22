@@ -5,8 +5,8 @@
     "title": "REST API",
     "description": "Taxa de juros entre bancos"
   },
-  "host": "victoria-belo.github.io/cdi-app",
-  "basePath": "/",
+  "host": "victoria-belo.github.io",
+  "basePath": "/cdi-app",
   "schemes": [   
     "https"
   ],
@@ -16,7 +16,7 @@
     }
   ],
   "paths": {
-    "v1/cdi": {
+    "/v1/cdi": {
       "get": {
         "tags": ["CDI"],
         "responses": {
