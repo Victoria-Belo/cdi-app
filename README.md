@@ -8,9 +8,9 @@
 </p>
 
 ## Branchs
-<p><img src="https://img.shields.io/badge/MAIN-8A2BE2?logo=git&label=BRANCH&labelColor=white" /> - https://victoria-belo.github.io/cdi-app/ </p>
+<p><img src="https://img.shields.io/badge/MAIN-8A2BE2?logo=git&label=BRANCH&labelColor=white" />    https://victoria-belo.github.io/cdi-app/ </p>
 <br>
-<p><img src="https://img.shields.io/badge/DEV-8A2BE2?logo=git&label=BRANCH&labelColor=white" /> - Localhost. </p>
+<p><img src="https://img.shields.io/badge/DEV-8A2BE2?logo=git&label=BRANCH&labelColor=white" />   Localhost. </p>
 <br>
 
 ## Demonstração
